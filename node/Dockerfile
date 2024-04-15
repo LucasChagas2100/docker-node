@@ -12,5 +12,4 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
     && rm dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz
     
 
-CMD [ "npm", "run", "dev" ]
 EXPOSE 3000
